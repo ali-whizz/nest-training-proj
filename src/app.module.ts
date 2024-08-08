@@ -8,7 +8,6 @@ import { CustomServieService } from './custom-servie/custom-servie.service';
 import { StudentService } from './student/student.service';
 import { CourseService } from './course/course.service';
 import { Logger } from './middlewares/functionalMiddlware';
-import { StudentController } from './student/student.controller';
 
 @Module({
   imports: [StudentModule, CourseModule],
